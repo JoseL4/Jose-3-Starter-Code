@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Jose_Unit 3 Project</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!--Between lines 8-12, put the opening of your story-->
+  <div class="title">The Decision</div>
+  <div class="story-opening">
+    <img alt="A dark setting in a park."
+      src="https://www.amny.com/wp-content/uploads/2016/01/bowling-green-in-the-dark-pic1.jpg">
+    <h3>You're at the park alone, you went to the park because you wanted some alone time. But that silence was
+      interupted by some screaming. You decide that you want go home, which pathway do you decide to take. </h1>
+  </div>
+  <!--Change the text of the buttons to the options relevant to your story!-->
+  <div class="buttons">
+    <button class="option-one">Right</button>
+    <button class="option-two">Left</button>
+  </div>
+  <!--Between lines 19-22, put the part of the story the user will see if they picked option one-->
+  <div class="option-one-screen">
+    <h1>You've decided to take the brightest pathway, but it's where the screaming is coming from.</h1>
+    <img alt="A lighten pathway leading to another area in a park."
+      src="https://thumbs.dreamstime.com/b/empty-paved-sidewalk-autumn-leaves-dark-park-empty-paved-sidewalk-dark-park-131692072.jpg">
+    <div>
+      <button class='option-one-continue'>Continue</button>
+    </div>
+  </div>
+  <!--Between lines 24-27, put the part of the story the user will see if they picked option two-->
+  <div class="option-two-screen">
+    <h1>You've decided to take the other path, away from where the screaming is, but it's much darker.</h1>
+    <img alt="A very dark pathway, with litle to no source of light."
+      src="https://i.pinimg.com/736x/7d/7f/0e/7d7f0ef879f72cc5f0a2ff2131d4ec48--the-park.jpg">
+    <div>
+      <button class='option-two-continue'>Continue</button>
+    </div>
+  </div>
+  <!--Between lines 29-32, put the end of the story if the user chose option 1-->
+  <div class="option-one-end">
+    <h1>You decide to further go into the path, and lead yourself to the exit, turns out that all that screaming was
+      just props for a haunted house down the block, so there's nothing to worry about. </h1>
+    <img alt="A haunted house with with many decorations."
+      src="https://media.timeout.com/images/105817113/750/562/image.jpg">
+  </div>
+  <!--Between lines 29-32, put the end of the story if the user chose option 2-->
+  <div class="option-two-end">
+    <h1 id='music' class='press'>Continuing further to the path, something is off, there's no source of lights. While
+      getting
+      closer to the exit.
+      You suddenly hear laughter. Only to notice a clown. You were never heard of again. </h1>
+    <img alt="A clown sitting in a swing set , holding a balloon at the park, in the night."
+      src="https://pbs.twimg.com/media/Ct4slG7XYAARZ6I.jpg:large">
+  </div>
+  <script src="script.js">
+  </script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+  <div class='music'>
+    <audio controls autoplay id='audio'>
+      <source src='punch-deck-100-seconds.mp3' type="audio/mpeg">
+      <source src='punch-deck-100-seconds.ogg' type="audio/ogg">
+      <source src='punch-deck-100-seconds.wav' type="audio/wav" </audio>
+  </div>
+</body>
+
+</html>
